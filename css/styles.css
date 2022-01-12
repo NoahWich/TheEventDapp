@@ -1,0 +1,66 @@
+h1 { 
+    font-family: 'Montserrat-Black', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: whitesmoke;
+}
+
+h3 {
+    font-family: 'Montserrat-Black', sans-serif;
+    font-weight: 400;
+    color: whitesmoke;
+}
+
+br {
+    padding-top: 100px;
+    padding-bottom: 25px;
+}
+
+.btn {
+    padding: 2% 5%;
+    margin: 3% 2%;
+}
+
+.event {
+    font-family: 'Roboto', sans-serif;
+    font-size: 6rem;
+    padding-left: 3%;
+}
+
+.nav-height {
+    min-height: 200px;
+}
+
+.head-image {
+    filter: invert(100%);
+    width: 30%;
+}
+
+.nav-font-size {
+    font-family: 'Montserrat-Black', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+#container-tight {
+    padding: 3% 15%
+}
+
+#container-wide {
+    padding: 3% 6%
+}
+
+#title {
+    background-image: linear-gradient(black, grey, black);
+}
+
+#crowd {
+    height: 500px;
+    object-fit: cover;
+    display: block;
+    width: 100%;
+}
+
+#head-text {
+    text-align: center;
+}
