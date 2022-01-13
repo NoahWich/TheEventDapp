@@ -16,17 +16,17 @@ h3 {
     color: whitesmoke;
 }
 
-br {
-    padding-top: 100px;
-    padding-bottom: 25px;
+h4 {
+    color: grey;
 }
 
-hr {
-    margin: 30px auto;
-    border-style: dotted none none none;
-    border-color: rgba(128, 128, 128, 0.5);
-    border-width: 5px;
-    width: 5%;
+br {
+    /* padding-top: 25px;
+    padding-bottom: 25px; */
+}
+
+.centered {
+    text-align: center;
 }
 
 .btn {
@@ -40,8 +40,8 @@ hr {
 
 .event {
     font-family: 'Roboto', sans-serif;
-    font-size: 6vw;
-    max-width: 50%;
+    font-size: 6.5vw;
+    max-width: 75%;
 }
 
 .nav-font-size {
@@ -67,6 +67,23 @@ hr {
     margin-bottom: 30px;
 }
 
+.feature-box {
+    padding: 30px 5%;
+}
+
+.weight-bold {
+    font-weight: bold;
+}
+
+.icon-color {
+    color: whitesmoke;
+    margin-bottom: 1.5rem;
+}
+
+.icon-color:hover {
+    color: rgb(255, 121, 73);
+}
+
 #container-nav {
     padding: 3% 4% 3% 10%;
 }
@@ -76,11 +93,7 @@ hr {
 }
 
 #title {
-    background-image: linear-gradient(black, grey, black);
-}
-
-#body-sect {
-    background-image: black;
+    background-image: linear-gradient(black, rgb(54, 54, 54), grey, black);
 }
 
 #crowd {
@@ -92,7 +105,8 @@ hr {
 
 #head-title {
     text-align: center;
-    font-size: 3.5vw;
+    font-size: 2.75rem;
+    padding-top: 50px;
 }
 
 #head-text {
@@ -102,4 +116,10 @@ hr {
 
 #exp {
     padding: 0 5%;
+}
+
+#features {
+    background-color: black;
+    padding: 10% 6%;
+    text-align: center;
 }
