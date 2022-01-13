@@ -40,7 +40,8 @@ hr {
 
 .event {
     font-family: 'Roboto', sans-serif;
-    font-size: 6rem;
+    font-size: 6vw;
+    max-width: 50%;
 }
 
 .nav-font-size {
@@ -89,8 +90,14 @@ hr {
     width: 100%;
 }
 
+#head-title {
+    text-align: center;
+    font-size: 3.5vw;
+}
+
 #head-text {
     text-align: center;
+    font-size: 3vw;
 }
 
 #exp {
