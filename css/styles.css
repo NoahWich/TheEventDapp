@@ -1,3 +1,7 @@
+body {
+    font-family: "Montserrat";
+}
+
 h1 { 
     font-family: 'Montserrat-Black', sans-serif;
     font-weight: 900;
@@ -17,15 +21,35 @@ br {
     padding-bottom: 25px;
 }
 
+hr {
+    margin: 30px auto;
+    border-style: dotted none none none;
+    border-color: rgba(128, 128, 128, 0.5);
+    border-width: 5px;
+    width: 5%;
+}
+
 .btn {
-    padding: 2% 5%;
+    padding: 2% 3%;
     margin: 3% 2%;
+}
+
+.navbar-brand {
+    padding: 0 20px;
 }
 
 .event {
     font-family: 'Roboto', sans-serif;
     font-size: 6rem;
-    padding-left: 3%;
+}
+
+.nav-font-size {
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 1.2rem;
+}
+
+.nav-item {
+    padding: 0 20px;
 }
 
 .nav-height {
@@ -42,13 +66,8 @@ br {
     margin-bottom: 30px;
 }
 
-.nav-font-size {
-    font-family: 'Montserrat-Black', sans-serif;
-    font-weight: 400;
-    font-size: 1.5rem;
-}
-#container-tight {
-    padding: 3% 15%
+#container-nav {
+    padding: 3% 4% 3% 10%;
 }
 
 #container-wide {
@@ -57,6 +76,10 @@ br {
 
 #title {
     background-image: linear-gradient(black, grey, black);
+}
+
+#body-sect {
+    background-image: black;
 }
 
 #crowd {
@@ -68,4 +91,8 @@ br {
 
 #head-text {
     text-align: center;
+}
+
+#exp {
+    padding: 0 5%;
 }
