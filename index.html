@@ -40,7 +40,10 @@
                             <a class="nav-link" href="#">Home</a>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Publish</a>
+                            <a class="nav-link" href="#signup">Register</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#publish">Publish</a>
                         </li>
                         <li class="nav-item active">
                             <a class="nav-link" href="#upcoming">Events</a>
@@ -62,7 +65,7 @@
                     <button type="button" class="btn btn-outline-light btn-lg"><img src="images/metamask-fox.svg" alt="Metamask"> Connect Wallet</button>
                 </div>
                 <div class="col-md-6">
-                    <div class="row" id="head-image-col">
+                    <div class="row" id="head-image-col" style="padding-left: 80px;">
                         <div class="col-lg-4 col-md-6 head-image" id="img1">
                             <img src="images/sport.png" alt="sporting event" class="img-fluid">
                         </div>
@@ -148,11 +151,12 @@
         <hr>
     </section>
     <section class="centered" id="signup">
-        <h2 class="title-text centered" id="Register" style="padding-bottom: 10px">Register</h2>
-        <p>Simple sign up for Users (attendees) and Publishers (event hosts)</p>
+        <h2 class="title-text" id="Register" style="padding-bottom: 10px">Register</h2>
+        <p>Simple sign up for Users (attendees) and Publishers (event hosts).</p>
+        <button type="button" class="btn btn-outline-light btn-lg publish-btn"><img src="images/metamask-fox.svg" alt="Metamask"> Connect Wallet</button>
         <div class="row" style="padding: 40px 20%;">
-            <div class="col-md-6" style="padding: 20px 5%;">
-                <div class="card">
+            <div class="col-md-6" style="padding: 10px 5%;">
+                <div class="card border-primary" style="border-width: 2px;">
                     <div class="card-header">
                         <h3 class="card-head-font">Users</h3>
                     </div>
@@ -160,12 +164,12 @@
                         <h2 class="signup-price">Free</h2>
                         <p class="card-item">Purchase Tickets</p>
                         <p class="card-item">Transfer Tickets</p>
-                        <button class="btn btn-outline-primary card-btn">Register as User</button>
+                        <button class="btn btn-outline-primary card-btn" id="registerUser">Register as User</button>
                     </div>
                 </div>
             </div>
             <div class="col-md-6" style="padding: 20px 5%;">
-                <div class="card">
+                <div class="card border-primary" style="border-width: 2px;"> 
                     <div class="card-header">
                         <h3 class="card-head-font">Publishers</h3>
                     </div>
@@ -174,11 +178,43 @@
                         <p class="card-item">Publish Events</p>
                         <p class="card-item">Purchase Tickets</p>
                         <p class="card-item">Transfer Tickets</p>
-                        <button class="btn btn-primary card-btn">Register as Creator</button>
+                        <button class="btn btn-primary card-btn" id="registerCreator">Register as Creator</button>
                     </div>
                 </div>
             </div>
         </div>
+        <hr><br>
     </section>
+    <section id="publish" class="centered">
+        <h2 class="title-text" style="padding-bottom: 10px">Publish an Event</h2>
+        <p>Fill out the following form in order to publish your Event.</p>
+        <div class="row">
+            <div class="col-md-6 right-alligned publish-text">
+                <h4>Event Name:</h4>
+            </div>
+            <div class="col-md-6 left-alligned publish-text box-padding">
+                <input type="text" name="Event Name" id="eventName">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 right-alligned publish-text">
+                <h4>Number of Tickets: </h4>
+            </div>
+            <div class="col-md-6 left-alligned publish-text box-padding">
+                <input type="text" name="Number of Tickets" id="numTix">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 right-alligned publish-text">
+                <h4>Price per Ticket: </h4>
+            </div>
+            <div class="col-md-6 left-alligned publish-text box-padding">
+                <input type="text" name="Ticket Price" id="priceTix">
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary publish-btn">Publish Event</button>
+
+    </section>
+
 </body>
 </html>
