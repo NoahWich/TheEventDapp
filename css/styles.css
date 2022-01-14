@@ -10,6 +10,10 @@ h1 {
     color: whitesmoke;
 }
 
+h2 {
+    padding-bottom: 20px;
+}
+
 h3 {
     font-family: 'Montserrat-Black', sans-serif;
     font-weight: 400;
@@ -21,19 +25,23 @@ h4 {
 }
 
 p {
-    color: rgb(180, 180, 180);
+    color: rgb(230, 230, 230);
 }
 
 hr {
     margin: 75px auto 20px auto;
     border-style: dotted none none none;
-    border-color: rgba(200, 200, 200, 0.698);
+    border-color: rgba(199, 199, 199, 0.698);
     border-width: 5px;
     width: 5%;
 }
 
 .centered {
     text-align: center;
+}
+
+.left-alligned {
+    text-align: left;
 }
 
 .btn {
@@ -54,9 +62,9 @@ hr {
 
 .title-text {
     font-family: 'Roboto', sans-serif;
-    font-size: 4vw;
+    font-size: 5.5vw;
     color: whitesmoke;
-    padding: 0 0 150px 0;
+    padding: 0 0 40px 0;
 }
 
 .nav-font-size {
@@ -107,6 +115,27 @@ hr {
     margin: 20px;
 }
 
+.card-head-font {
+    font-family: 'Montserrat-Black', sans-serif;
+    font-weight: 900;
+    color: black;
+}
+
+.signup-price {
+    font-family: 'Montserrat-Black', sans-serif;
+    font-weight: 900;
+}
+
+.card-item {
+    color: black;
+    font-family: 'Montserrat-Black', sans-serif;
+    font-weight: 400;
+}
+
+.card-btn {
+    width: 80%;
+}
+
 #container-nav {
     padding: 3% 4% 3% 10%;
 }
@@ -117,6 +146,10 @@ hr {
 
 #title {
     background-image: linear-gradient(black, rgb(54, 54, 54), grey, black);
+}
+
+#signup {
+    background-image: linear-gradient(black, grey, rgb(54, 54, 54), black);
 }
 
 #crowd {
@@ -146,6 +179,10 @@ hr {
     background-color: black;
     padding: 10% 6% 2% 6%;
     text-align: center;
+}
+
+#event-link:hover {
+    color: orangered;
 }
 
 #carousel {
