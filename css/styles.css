@@ -154,6 +154,33 @@ hr {
     margin: 30px 0;
 }
 
+.about-text {
+    padding: 0 10%;
+}
+
+.end-text {
+    font-family: 'Montserrat-Black', sans-serif;
+    font-weight: 900;
+    color: whitesmoke;
+    margin: 0 10%;
+}
+
+.rights-text {
+    font-family: 'Montserrat-Black', sans-serif;
+    font-weight: 400;
+    color: whitesmoke;
+    margin: 0 5%;
+}
+
+.inverted {
+    filter: invert(100%);
+    padding: 10px 10px;
+}
+
+.inverted:hover {
+    color: orangered;
+}
+
 #container-nav {
     padding: 3% 4% 3% 10%;
 }
@@ -210,4 +237,12 @@ hr {
 
 #publish {
     background-color: black;
+}
+
+#about {
+    background-color: black;
+}
+
+#rights {
+    background-image: linear-gradient(black, grey);
 }
